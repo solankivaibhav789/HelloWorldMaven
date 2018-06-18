@@ -1,0 +1,21 @@
+<project>
+	<groupId>com.peaas</groupId><!-- specify your company so it distinct from other-->	
+	<artifactId>HelloWorld</artifactId><!-- write your distinct application name -->
+	<version>1.0-snapshot</version>	<!-- write your application version -->
+	<modelVersion>4.0.0</modelVersion>	<!-- Declares to which version of project descriptor this POM conforms. -->
+	<packaging>jar</packaging>	<!-- packaging type which produce project like jar,war etc -->
+ 
+ 	<dependencies>
+ 		<dependency>
+ 			<groupId>commons-lang</groupId>
+ 			<artifactId>commons-lang</artifactId>
+ 			<version>2.1</version>
+ 		</dependency>
+ 		
+ 	</dependencies>	
+ 	<build>
+ 		<finalName>foo</finalName>
+ 	</build>
+ </project>
+ 
+ 
